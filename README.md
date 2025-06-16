@@ -145,14 +145,16 @@ Backend - appsettings.json
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 ---
 
 ## Author
 
 Samiksha Mone
+
 .NET Full Stack Developer
-LinkedIn (Add your actual profile URL)
+
+[LinkedIn](www.linkedin.com/in/samiksha-mone-8a23b7182)
 
 ---
