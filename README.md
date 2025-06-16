@@ -1,10 +1,10 @@
-# 🧑‍💼 Employee Task Management System
+# Employee Task Management System
 
 A full-stack web application built using **.NET Core** and **React** that enables organizations to assign, track, and manage employee tasks efficiently. The system supports **real-time updates via SignalR**, secure **role-based access**, and scalable deployment via **Azure App Services**.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 | Layer       | Technology                              |
 |-------------|------------------------------------------|
@@ -17,19 +17,19 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 ---
 
-## ✨ Features
+## Features
 
-- 👤 **Role-based access** (Admin / Manager / Employee)
-- ✅ **Task assignment, update & tracking**
-- 🔄 **Real-time notifications** using SignalR
-- 📊 **Dashboard with task status & filters**
-- 🔐 **Secure authentication and authorization**
-- ☁️ **Cloud-hosted backend & database** via Azure
-- 📱 **Responsive UI** (mobile-friendly)
+- **Role-based access** (Admin / Manager / Employee)
+- **Task assignment, update & tracking**
+- **Real-time notifications** using SignalR
+- **Dashboard with task status & filters**
+- **Secure authentication and authorization**
+- **Cloud-hosted backend & database** via Azure
+- **Responsive UI** (mobile-friendly)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Login Page | Dashboard | Create Task |
 |------------|-----------|-------------|
@@ -38,7 +38,7 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 🔗 Prerequisites
 
@@ -73,3 +73,53 @@ npm install
 # Start dev server
 npm start
 ```
+---
+
+### Environment Variables
+Backend - appsettings.json
+
+```bash
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "your-azure-sql-connection-string"
+  },
+  "JwtSettings": {
+    "Secret": "your-secret-key"
+  }
+}
+
+```
+---
+
+## Project Structure
+
+```bash
+├── backend
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Services/
+│   ├── Hubs/
+│   └── Program.cs
+│
+├── frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── Components/
+│   │   ├── pages/
+│   │   ├── Services/
+│   │   └── App.js, index.js
+│
+├── screenshots/
+├── README.md
+├── LICENSE
+└── .gitignore
+
+```
+---
+
+## Testing
+
+- Backend: Use xUnit or MSTest for unit/integration tests.
+- Frontend: Use Jest + React Testing Library
+
+---
