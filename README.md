@@ -60,3 +60,16 @@ dotnet restore
 dotnet ef database update  # If using EF migrations
 dotnet run
 ```
+---
+
+### Frontend Setup (/frontend)
+
+```bash
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm start
+```
