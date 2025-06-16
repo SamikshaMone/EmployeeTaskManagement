@@ -35,7 +35,6 @@ A full-stack web application built using **.NET Core** and **React** that enable
 |------------|-----------|-------------|
 | ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Task](screenshots/create-task.png) |
 
-> Note: Save screenshots in a `screenshots/` folder at the root of your repo.
 
 ---
 
