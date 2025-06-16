@@ -40,7 +40,7 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 ## Getting Started
 
-### 🔗 Prerequisites
+### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/)
 - [Node.js & npm](https://nodejs.org/)
@@ -50,7 +50,7 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 ---
 
-### 🛠️ Backend Setup (`/backend`)
+### Backend Setup (`/backend`)
 
 ```bash
 cd backend
@@ -121,5 +121,38 @@ Backend - appsettings.json
 
 - Backend: Use xUnit or MSTest for unit/integration tests.
 - Frontend: Use Jest + React Testing Library
+
+---
+
+## Deployment (Azure)
+
+1. Push backend to Azure App Service (via VS or CLI)
+
+2. Deploy React frontend via Vercel, Netlify, or Azure Static Web App
+
+3. Update CORS and SignalR base URLs accordingly
+
+---
+
+## Contributing
+
+1. Fork the repo
+2. Create a branch (git checkout -b feature/feature-name)
+3. Commit your changes (git commit -m 'add feature')
+4. Push and open a PR
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Author
+
+Samiksha Mone
+.NET Full Stack Developer
+LinkedIn (Add your actual profile URL)
 
 ---
