@@ -33,7 +33,7 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 | Home Page | Dashboard Page | Register Page | Login Page | Create Task Page | 404 Page |
 |------------|-----------|-------------|-------------|-------------|------------|
-| ![Task](screenshots/home.png)! | ![Dashboard](screenshots/dashboard.png) | ![Register](screenshots/register.png) | ![Login](screenshots/login.png) | ![Task](screenshots/create-task.png) | ![Task](screenshots/pageNotFound.png) |
+| ![Task](screenshots/home.png) | ![Dashboard](screenshots/dashboard.png) | ![Register](screenshots/register.png) | ![Login](screenshots/login.png) | ![Task](screenshots/create-task.png) | ![Task](screenshots/pageNotFound.png) |
 
 
 ---
