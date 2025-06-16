@@ -119,8 +119,8 @@ Backend - appsettings.json
 
 ## Testing
 
-- Backend: Use xUnit or MSTest for unit/integration tests.
-- Frontend: Use Jest + React Testing Library
+- Backend: Use [xUnit](https://xunit.net/) or MSTest for unit/integration tests.
+- Frontend: Use [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/)
 
 ---
 
