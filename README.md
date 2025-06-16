@@ -31,9 +31,9 @@ A full-stack web application built using **.NET Core** and **React** that enable
 
 ## Screenshots
 
-| Login Page | Dashboard | Create Task | 404 Page |
-|------------|-----------|-------------|-------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Task](screenshots/create-task.png) | ![Task](screenshots/pageNotFound.png) |
+| Login Page | Dashboard | Home | Create Task | 404 Page |
+|------------|-----------|-------------|-------------|-------------|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Task](screenshots/home.png) | ![Task](screenshots/create-task.png) | ![Task](screenshots/pageNotFound.png) |
 
 
 ---
